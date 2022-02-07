@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiri', serif;
+}
+
+body{
+    background-color: #EAB586;
+}
+header {
+    background-color: #AE6343;
+    height: 4.6875rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8.75rem;
+    padding-left: 8.75rem;
+}
+
+div.logo {
+    justify-items: right;
+
+}
+div img {
+    width: 17rem;
+    margin-top: 8px;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+
+li{
+    font-size: 2.1875em;
+    color: white;
+    margin-top: 8px;
+    margin-right: 1.875em;
+}
+
+nav {
+    background-image: url("/media/Group\ 1.png");
+    height:1000px;
+    margin: 0;
+    display: block
+}
+
+
+h1{
+    font-size: 5.625em;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 17rem;
+    margin-bottom: 50px;
+}
+
+p.call-action{
+    color: black;
+    background-color: #EAB586;
+    padding: 4px 50px 4px 50px;
+    text-align: center;
+    width: fit-content;
+    margin:auto;
+    font-size: 2.5em;
+    border-radius: 38px;
+}
+
+.about {
+    width: 52.6875rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 7fr 13fr;
+    grid-auto-rows: 1;
+    margin-top: 5.625em;
+}
+
+div.about img {
+    width: 18.25rem;
+    height: 18.25rem;
+    display: inline-block;
+    align-self: center;
+}
+
+div.about h2{
+    font-size: 4.6875em;
+    color: black;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    align-self: center;
+}
+
+p.about-text{
+    font-size: 2.5em;
+    display: inline-block;
+    text-align: center;
+    grid-column: 1 / 3;
+    margin-top: 1em;
+}
+
+section.second{
+    background-color: #745942;
+    margin-top: 5.3125rem;
+}
+
+section.second h2{
+    font-size: 4.25em;
+    color: white;
+    text-align: center;
+    padding-top: 5.3125rem;
+    font-weight: 400;
+}
+
+.book-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    align-items: center;
+    padding-bottom: 5.3125rem;
+}
+
+.book1{
+    display:grid;
+    grid-template-rows: 2fr 8fr 1.5fr;
+    background-color: #B28D6C;
+    padding: 2rem 3rem;
+    height: 30rem;
+    width: 22rem;
+    border-radius: 50px;
+}
+.book2{
+    display:grid;
+    grid-template-rows: 2fr 8fr 1.5fr;
+    background-color: #B28D6C;
+    padding: 1.75rem 3rem 1.5rem 3rem;
+    height: 36rem;
+    width: 25rem;
+    border-radius: 50px;
+}
+.book3{
+    display:grid;
+    grid-template-rows: 2fr 8fr 1.5fr;
+    background-color: #B28D6C;
+    padding: 2rem 3rem;
+    height: 30rem;
+    width: 22rem;
+    border-radius: 50px;
+}
+.book1 img{
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+}
+
+.book2 img{
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+}
+
+.book3 img{
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+}
+
+h3{
+    font-size: 1.5em;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    background-color: #e6c3a5;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.book2 h3{
+    font-size: 1.9em;
+}
+
+.more-info {
+    font-size: 1.75em;
+    color: white;
+    align-self: flex-end;
+    justify-self: center;
+    background-color: #745942;
+    padding: 0.25rem 3rem;
+    border-radius: 100px;
+}
+
+.book2 p.more-info{
+    padding: 0.1em 3rem;
+}
+
+
+
+
